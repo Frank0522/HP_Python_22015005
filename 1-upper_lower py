@@ -1,0 +1,7 @@
+B = input("Enter a character:")
+if ord (B)>=65 and ord (B)<=90:
+    print (B, "is an uppercase letter."
+elif ord (B)>=97 and ord (B)<=122:
+    print(B,"is lowercase letter.")
+else:
+    print (B,"is not a letter.")
